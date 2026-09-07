@@ -1,0 +1,5 @@
+# Copy to key.properties and fill in. key.properties is gitignored.
+storePassword=CHANGEME
+keyPassword=CHANGEME
+keyAlias=resttimer
+storeFile=/absolute/path/to/mby4m.jks
