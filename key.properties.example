@@ -1,5 +1,10 @@
-# Copy to key.properties and fill in. key.properties is gitignored.
+# TEMPLATE — no real values in this file.
+#
+# Release signing config. Copy to key.properties (which is gitignored, as are
+# *.jks / *.keystore) and fill in your own values. Never commit the real file
+# or the keystore. Without key.properties, release builds fall back to debug
+# signing so a fresh clone still builds.
 storePassword=CHANGEME
 keyPassword=CHANGEME
 keyAlias=resttimer
-storeFile=/absolute/path/to/mby4m.jks
+storeFile=/absolute/path/to/your-release-keystore.jks
